@@ -1,0 +1,30 @@
+#pepe{
+  animation-name: pepe;
+  animation-iteration-count:20;
+  animation-duration: 10s;
+animation-direction: alternate;
+position: absolute;
+}
+
+@keyframes pepe {
+  from {left: 0%; top: 0%}
+  50%{
+    left: 39.5%;top:50%;
+  }
+    to{left: 80.6%; top:0%}
+}
+
+/* #pepe2{
+  animation-name: pepe2;
+  animation-iteration-count:20;
+  animation-duration: 10s;
+animation-direction: alternate;
+position: absolute;
+}
+
+
+@keyframes pepe2 {
+  from {left: 0%; top: 0%}
+
+    to{left: 85%; top:0%}
+} */
